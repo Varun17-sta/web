@@ -1,0 +1,18 @@
+project: 
+  type: website
+  output-dir: docs
+
+
+website: 
+  navbar:
+    left: 
+      - text: "About me"
+        href: varunpage1.qmd
+      - text: "Qualifications"
+        href: varunpage2.qmd
+      - text: "guide"
+        href: varunpage3.qmd
+
+format: 
+  html: 
+    theme: cosmo
