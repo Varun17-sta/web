@@ -1,18 +1,30 @@
-project: 
+project:
   type: website
-  output-dir: docs
+  title: "Final Project"
+  
+website:
+  sidebar:
+    style: "docked"
+    search: false
+    contents:
+      - section: "Introduction"
+        contents:
+          - index.qmd
+          - research.qmd
+      - section: "2. Research"
+        contents:
+          - question1.qmd
+          - question2.qmd
+          - question3.qmd
+      - section: "3. Group Members"
+        contents:
+          - bhuvan.qmd
+          - saketh.qmd
+          - varun.qmd
 
-
-website: 
-  navbar:
-    left: 
-      - text: "About me"
-        href: varunpage1.qmd
-      - text: "Qualifications"
-        href: varunpage2.qmd
-      - text: "guide"
-        href: varunpage3.qmd
-
-format: 
-  html: 
+format:
+  html:
     theme: cosmo
+    css: styles.css
+editor: visual
+
